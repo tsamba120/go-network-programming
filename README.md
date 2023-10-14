@@ -2,12 +2,9 @@
 Some tinkering with socket programming in Golang
 
 ## Components
-
-    1. Client code to create a TCP connection with a server listening on a given port
-
-    2. Server that can accept connection on a new thread (faciliated by Goroutines)
-
-    3. Helper package with shared helper code
+1. Client code to create a TCP connection with a server listening on a given port
+2. Server that can accept connection on a new thread (faciliated by Goroutines)
+3. Helper package with shared helper code
 
 ## Functionality:
 After the client establishes a TCP connection to the server, it will accept input from `stdin`.
